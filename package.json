@@ -1,0 +1,28 @@
+{
+  "name": "tripple-semicolon",
+  "version": "1.0.0",
+  "description": "Adds three semicolons at every JS line.",
+  "main": "index.js",
+  "bin": {
+    "tripple-semicolon": "./bin/tripple-semicolon"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/christophwitzko/tripple-semicolon.git"
+  },
+  "keywords": [
+    "semicolon"
+  ],
+  "author": "Christoph Witzko <npm@christophwitzko.com> (http://christophwitzko.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/christophwitzko/tripple-semicolon/issues"
+  },
+  "homepage": "https://github.com/christophwitzko/tripple-semicolon",
+  "dependencies": {
+    "minimist": "^1.1.0"
+  }
+}
