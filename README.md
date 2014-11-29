@@ -4,6 +4,9 @@
 
     $ npm install -g tripple-semicolon
 
+## Usage
+    $ cat index.js | tripple-semicolon > index2.js
+
 ## Licence
 
 The [MIT License (MIT)](http://opensource.org/licenses/MIT)
