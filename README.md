@@ -5,7 +5,12 @@
     $ npm install -g tripple-semicolon
 
 ## Usage
+
     $ cat index.js | tripple-semicolon > index2.js
+
+### Greek Mode
+
+    $  cat index.js | tripple-semicolon -g > index2.js
 
 ## Licence
 
