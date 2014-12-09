@@ -23,7 +23,8 @@
   },
   "homepage": "https://github.com/christophwitzko/tripple-semicolon",
   "dependencies": {
-    "fixmyjs": "^0.13.6",
+    "esformatter": "^0.4.3",
+    "esformatter-semicolons": "^1.0.3",
     "minimist": "^1.1.0"
   }
 }

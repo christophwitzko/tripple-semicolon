@@ -1,16 +1,15 @@
 'use strict'
 
-var fixmyjs = require('fixmyjs')
+var esformatter = require('esformatter')
+esformatter.register(require('esformatter-semicolons'))
 
 var pkg = require('./package.json')
-
 
 var SEMICOLONS = ';;;'
 var GREEK = ';'
 
-
 function addTrippleSemicolon(data, semicolons){
-  return fixmyjs.fix(data, {asi: false}).replace(/;(\r|\n)+/gm, semicolons + '\n')
+  return esformatter.format(data).replace(/;(\r|\n)/gm, semicolons + '\n')
 }
 
 module.exports = function(argv) {
