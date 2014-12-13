@@ -15,7 +15,7 @@
 ## Module usage
 
 ```javascript
-var trippleSemicolon = require('./')
+var trippleSemicolon = require('tripple-semicolon')
 var out = trippleSemicolon('console.log(a);\n')
 console.log(out) // logs "console.log(a);;;"
 ```
