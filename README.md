@@ -4,7 +4,7 @@
 
     $ npm install -g tripple-semicolon
 
-## Usage
+## CLI usage
 
     $ cat index.js | tripple-semicolon > index2.js
 
@@ -12,6 +12,13 @@
 
     $  cat index.js | tripple-semicolon -g > index2.js
 
+## Module usage
+
+```javascript
+var trippleSemicolon = require('./')
+var out = trippleSemicolon('console.log(a);\n')
+console.log(out) // logs "console.log(a);;;"
+```
 ## Licence
 
 The [MIT License (MIT)](http://opensource.org/licenses/MIT)
