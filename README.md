@@ -6,6 +6,10 @@
 
 ## CLI usage
 
+    $ tripple-semicolon index.js > index2.js
+
+**use stdin**
+
     $ cat index.js | tripple-semicolon > index2.js
 
 ### Greek Mode
