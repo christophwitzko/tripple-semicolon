@@ -1,6 +1,6 @@
 {
   "name": "tripple-semicolon",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "description": "Adds three semicolons at every JS line.",
   "main": "index.js",
   "bin": {
