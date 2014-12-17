@@ -20,7 +20,7 @@
 
 ```javascript
 var trippleSemicolon = require('tripple-semicolon')
-var out = trippleSemicolon('console.log(a);\n')
+var out = trippleSemicolon('console.log(a);')
 console.log(out) // logs "console.log(a);;;"
 ```
 ## Licence
