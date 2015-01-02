@@ -1,5 +1,7 @@
 # tripple-semicolon
 
+[![forthebadge](http://forthebadge.com/badges/built-with-swag.svg)](http://forthebadge.com)
+
 ## Install tripple-semicolon
 
     $ npm install -g tripple-semicolon
