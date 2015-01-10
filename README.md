@@ -29,4 +29,4 @@ console.log(out) // logs "console.log(a);;;"
 
 The [MIT License (MIT)](http://opensource.org/licenses/MIT)
 
-Copyright © 2014 [Christoph Witzko](https://twitter.com/christophwitzko)
+Copyright © 2015 [Christoph Witzko](https://twitter.com/christophwitzko)
