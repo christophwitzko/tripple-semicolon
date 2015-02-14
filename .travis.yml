@@ -1,0 +1,21 @@
+language: node_js
+node_js:
+- iojs-v1
+sudo: false
+cache:
+  directories:
+  - node_modules
+notifications:
+  email: false
+env:
+  global:
+  - secure: b/iBO7dtBCa++0i6axroj9HSjiqHJbvByhadin6uyiyw5pDdzUa5gEmBKa1CpS+nMV4/4QB4yQpuRRfINihQX5iWSYAupamNhWaMOAmZgra/NTzBXdla+SlMiQEkpyLQWbd6zPZY3HxzJzHRBET973XxGAW76EdnmeJTSnIf47Q=
+deploy:
+  provider: npm
+  email: npm@christophwitzko.com
+  skip_cleanup: true
+  api_key:
+    secure: hzFwMqaPY7n/xuS0D071D2ZxQDjrJJulZJ2H23q6OV3CKvU8HqulJ+fxHO8w+o8XiF6Jth7VBbhrzERb4mjIdbUdXmXgqMYrrHjxUkiElP39G+vAS4IdwzQRZNq4Ix9xIWYkgRBkYkGkX/7XHRIHSDZL5sQbA3qFLiXftrQvgzk=
+  on:
+    branch: master
+    repo: christophwitzko/tripple-semicolon
