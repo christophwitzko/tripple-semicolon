@@ -1,6 +1,6 @@
 # tripple-semicolon
 
-[![forthebadge](http://forthebadge.com/images/badges/built-with-swag.svg)](http://forthebadge.com) [![forthebadge](http://forthebadge.com/images/badges/uses-js.svg)](http://forthebadge.com)
+[![Build Status](https://travis-ci.org/christophwitzko/tripple-semicolon.svg?branch=master)](https://travis-ci.org/christophwitzko/tripple-semicolon) [![forthebadge](http://forthebadge.com/images/badges/built-with-swag.svg)](http://forthebadge.com) [![forthebadge](http://forthebadge.com/images/badges/uses-js.svg)](http://forthebadge.com)
 
 ## Install tripple-semicolon
 
