@@ -6,7 +6,20 @@
 
     $ npm install -g tripple-semicolon
 
-## CLI usage
+## Usage
+
+```
+Usage:
+  tripple-semicolon <options> -- <file>
+
+Options:
+  -w, --overwrite     Overwrite the input file
+  -o, --output <file> Write output to file
+  -v, --version       Output the current version
+  -h, --help          Output this help info
+```
+
+## Examples
 
     $ tripple-semicolon index.js > index2.js
 
