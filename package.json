@@ -37,7 +37,8 @@
   },
   "standard": {
     "ignore": [
-      "test/example-tripple-semicolon.js"
+      "test/example-tripple-semicolon.js",
+      "test/example-tripple-semicolon-greek.js"
     ]
   }
 }
