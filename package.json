@@ -7,7 +7,7 @@
     "tripple-semicolon": "./bin/tripple-semicolon"
   },
   "scripts": {
-    "test": "standard",
+    "test": "standard && node test/test.js | tap-spec",
     "prepublish": "semantic-release pre",
     "postpublish": "semantic-release post"
   },
@@ -31,6 +31,13 @@
   },
   "devDependencies": {
     "semantic-release": "^3.0.2",
-    "standard": "^2.3.1"
+    "standard": "^2.3.1",
+    "tap-spec": "^2.2.1",
+    "tape": "^3.5.0"
+  },
+  "standard": {
+    "ignore": [
+      "test/example-tripple-semicolon.js"
+    ]
   }
 }
