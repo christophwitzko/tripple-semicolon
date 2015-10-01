@@ -25,15 +25,15 @@
   },
   "homepage": "https://github.com/christophwitzko/tripple-semicolon",
   "dependencies": {
-    "esformatter": "^0.4.3",
-    "esformatter-semicolons": "^1.0.3",
-    "minimist": "^1.1.0"
+    "esformatter": "0.4.3",
+    "esformatter-semicolons": "1.1.2",
+    "minimist": "1.2.0"
   },
   "devDependencies": {
-    "semantic-release": "^3.0.2",
-    "standard": "^2.3.1",
-    "tap-spec": "^2.2.1",
-    "tape": "^3.5.0"
+    "semantic-release": "3.4.1",
+    "standard": "2.11.0",
+    "tap-spec": "2.2.2",
+    "tape": "3.5.0"
   },
   "standard": {
     "ignore": [
