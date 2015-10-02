@@ -33,7 +33,7 @@
     "semantic-release": "3.4.1",
     "standard": "2.11.0",
     "tap-spec": "2.2.2",
-    "tape": "3.5.0"
+    "tape": "4.2.1"
   },
   "standard": {
     "ignore": [
