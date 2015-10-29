@@ -25,7 +25,7 @@
   },
   "homepage": "https://github.com/christophwitzko/tripple-semicolon",
   "dependencies": {
-    "esformatter": "0.7.3",
+    "esformatter": "0.8.1",
     "esformatter-semicolons": "1.1.2",
     "minimist": "1.2.0"
   },
